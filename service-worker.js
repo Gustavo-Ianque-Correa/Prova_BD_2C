@@ -1,6 +1,6 @@
 self.addEventListener('install', function(event){
     event.waitUntil(
-        caches.open('todo-cache').then(function(cache){
+        caches.open('sala-cache').then(function(cache){
             return cache.addAll([
                 '/',
                 '/index.html',
